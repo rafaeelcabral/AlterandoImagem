@@ -1,0 +1,39 @@
+.container{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 35px;
+}
+
+.container .imagemPrincipal{
+    border: 1px solid white;
+    width: 80%;
+    height: 350px;
+    margin: 35px auto;
+    border-radius: 25px;
+}
+
+.container .selecionar{
+    border: 1px solid white;  
+    width: 40%;
+    height: 130px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container .selecionar .selecionarinside{
+    border: 1px solid white;
+    width: 30%;
+    height: 100px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+}
